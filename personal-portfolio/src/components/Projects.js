@@ -11,8 +11,8 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: <a href="https://agromily.com" style={{color:"green"}}>Agromily</a>,
+      description: "Community & Development",
       imgUrl: projImg1,
     },
     {

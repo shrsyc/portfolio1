@@ -10,36 +10,23 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    
     {
-      title: <a href="https://agromily.com" style={{color:"green"}}>Agromily</a>,
+      title: <a href="https://shrsyc.studio" style={{color:"yellow"}}>Personal Portfolio</a>,
+      description: "Design & Development",
+      imgUrl: projImg2,
+    },
+    {
+      title: <a href="https://agromily.com" style={{color:"yellow"}}>Agromily</a>,
       description: "Community & Development",
       imgUrl: projImg1,
     },
     {
       title: "Business Startup",
       description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
       imgUrl: projImg3,
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+    
   ];
 
   return (
